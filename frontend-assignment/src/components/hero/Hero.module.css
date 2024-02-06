@@ -1,0 +1,60 @@
+.heroScreenContainer {
+    height: 32.5rem;
+    /* background: linear-gradient(#243A5AB2, #243A5AB2); */
+    background-size: 100% ;
+    background-position: 0% 50%;;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+
+}
+
+
+.heroContent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 7.5rem;
+}
+
+.heading {
+    width: 44rem;
+    font-family: 'Inter', sans-serif;;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.heading h2 {
+    font-family: inherit;
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 5rem;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.heading p {
+    font-family: inherit;
+    font-weight: 400;
+    line-height: 2rem;
+    width: 44rem;
+}
+
+.btn {
+    background-color: #243A5A;
+    border-radius: 2rem;
+    border: none;
+    padding: 1rem 1.5rem;
+    height: 3rem;
+    width: 10rem;
+}
+
+.btn span {
+    font-family: 'Inter', sans-serif;;
+    font-weight: 500;
+    line-height: 1rem;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 1rem;
+}

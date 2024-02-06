@@ -1,0 +1,27 @@
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem; /*fix this later*/
+    max-width: 10rem;
+    max-height: 2.25rem;  
+}
+
+.logoIcon{
+    max-height: 2.25rem;  
+    max-width: 2.25rem;  
+}
+
+.vectorsContainer {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.035rem;
+    padding-top: 0.2rem;
+}
+

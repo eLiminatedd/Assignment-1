@@ -1,0 +1,13 @@
+.sectionScreenCont {
+    height: 45rem;
+    background-color: #FFFFFF;
+}
+
+.sectionContentCont {
+    display: flex;
+    flex-direction: row;
+    height: 45rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around; /* idk about this*/
+}

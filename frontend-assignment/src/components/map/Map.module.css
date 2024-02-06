@@ -1,0 +1,22 @@
+:root {
+    --mapWidth: 37.5rem;
+    --mapHeight: 28.125rem;
+}
+
+.mapCont iframe {
+    width: var(--mapWidth);
+    height: var(--mapHeight);
+}
+
+
+@media screen and (max-width: 1600px) {
+    .mapCont iframe {
+        width: calc(0.8 * var(--mapWidth));
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .mapCont iframe {
+        width: calc(0.5 * var(--mapWidth));
+    }
+}

@@ -1,0 +1,77 @@
+.contactCont,
+.headingCont,
+.hourBox,
+.box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.contactCont {
+    gap: 3rem
+}
+
+.headingCont {
+    gap: 1.3rem;
+}
+
+.headingCont h2 {
+    font-size: 3rem;
+    font-family: inherit;
+    font-weight: 600;
+    line-height: 1.813rem;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #243A5A;
+}
+
+.headingCont p {
+    color: #566C8C;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.21rem;
+    text-align: left;
+}
+
+.infoCont {
+    font-family: inherit;
+    display: flex;
+    flex-direction: row;
+    gap: 3.5rem;
+
+}
+
+.box {
+    font-family: inherit;
+    justify-content: flex-start;
+    color: #566C8C;
+    font-size: 1rem;
+    line-height: 1.21rem;
+    font-weight: 400;
+    gap: 0.5rem;
+}
+
+.line {
+    border-top: 1px solid #889EBE;
+    width: 18.438rem;
+}
+
+.hourBox {
+    gap: 2rem;
+}
+
+.hourBox h3 {
+    font-size: 1.5rem;
+    color: #243A5A;
+    font-weight: 600;
+    line-height: 1.816rem;
+}
+
+.hourBox p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #566C8C;
+}
